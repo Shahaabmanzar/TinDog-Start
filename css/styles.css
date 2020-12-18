@@ -85,9 +85,32 @@ h2 {
   background-color: #ef8172;
   color: #fff;
 }
-
+carousel-item {
+  padding: 7% 15%;
+}
 .imagee {
   width: 20%;
   margin: 20px;
 }
-press.logo
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.card {
+  border: 0cm;
+}
+.pricing-coloumn {
+  padding: 3%, 2%;
+  text-align: center;
+}
