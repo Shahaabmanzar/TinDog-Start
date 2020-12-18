@@ -1,5 +1,11 @@
+/* title */
 #title {
   background-color: #ff4c68;
+}
+h3.feature {
+  font-size: 1.5rem;
+  font-family: "montserrat";
+  font-weight: 200;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -11,6 +17,11 @@ h1 {
   line-height: 1.5;
   color: white;
 }
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .container-fluid {
   padding: 3% 15%;
 }
@@ -20,9 +31,63 @@ h1 {
 }
 .navbar {
   font-size: larger;
-  margin-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .rotated {
+  width: 60%;
   transform: rotate(30deg);
 }
+.fa-apple {
+  /* padding-right: 20px; */
+  /* margin-right: 8px; */
+}
+.fa-google-play {
+}
+.forborder {
+  margin-top: 50px;
+}
+/* features section */
+/* features color */
+.fa-check-circle,
+.fa-bullseye,
+.fa-heart {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-heart:hover {
+  color: #ff4c68;
+}
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+.fa-check-circle:hover {
+  color: #ff4c68;
+}
+/* features padding,align */
+
+#features {
+  padding: 7% 15%;
+}
+.feature {
+  text-align: center;
+}
+
+.palign {
+  text-align: center;
+}
+
+/* testimonial */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.imagee {
+  width: 20%;
+  margin: 20px;
+}
+press.logo
