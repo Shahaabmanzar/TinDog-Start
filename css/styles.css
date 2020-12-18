@@ -7,9 +7,20 @@ h3.feature {
   font-family: "montserrat";
   font-weight: 200;
 }
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Ubuntu", sans-serif;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -35,18 +46,16 @@ h2 {
   padding-right: 0px;
 }
 
-.rotated {
-  width: 60%;
-  transform: rotate(30deg);
-}
 .fa-apple {
   /* padding-right: 20px; */
   /* margin-right: 8px; */
 }
 .fa-google-play {
 }
+
 .forborder {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  display: inline-block;
 }
 /* features section */
 /* features color */
@@ -67,9 +76,6 @@ h2 {
 }
 /* features padding,align */
 
-#features {
-  padding: 7% 15%;
-}
 .feature {
   text-align: center;
 }
@@ -113,4 +119,13 @@ carousel-item {
 .pricing-coloumn {
   padding: 3%, 2%;
   text-align: center;
+}
+.forborder {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+.coloumnn {
+  display: table-cell;
 }
