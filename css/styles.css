@@ -11,6 +11,7 @@ h3.feature {
   width: 20%;
   transform: rotate(25deg);
   position: absolute;
+  right: 30%;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -20,7 +21,6 @@ body {
   padding: 7% 15%;
   background-color: white;
   position: relative;
-  z-index: 1;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -34,7 +34,7 @@ h2 {
   line-height: 1.5;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 .heading {
   font-family: "Andika New Basic", sans-serif;
@@ -54,7 +54,7 @@ h2 {
 }
 
 .forborder {
-  /* margin-top: 50px; */
+  margin-top: 50px;
   display: inline-block;
 }
 /* features section */
@@ -128,4 +128,13 @@ carousel-item {
 }
 .coloumnn {
   display: table-cell;
+}
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
 }
